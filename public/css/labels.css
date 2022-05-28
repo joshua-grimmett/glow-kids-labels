@@ -45,14 +45,7 @@
   border-image: linear-gradient(45deg, #18a7b1, #1360ab) 1;
 }
 
-.label:nth-child(8),
-.label:nth-child(16),
-.label:nth-child(24),
-.label:nth-child(32),
-.label:nth-child(40),
-.label:nth-child(48),
-.label:nth-child(56),
-.label:nth-child(64) {
+.label:nth-child(8n+8) {
   margin-bottom: 55mm;
 }
 
