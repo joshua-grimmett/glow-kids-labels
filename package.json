@@ -9,6 +9,7 @@
     "sass": "^1.52.1"
   },
   "scripts": {
+    "build": "sass public/css:public/css",
     "dev": "sass --watch public/css/labels.scss public/css/labels.css & sass --watch public/css/index.scss public/css/index.css & nodemon ./index.js"
   }
 }
