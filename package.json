@@ -1,0 +1,14 @@
+{
+  "name": "labels",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "sass": "^1.52.1"
+  },
+  "scripts": {
+    "dev": "sass --watch public/css/labels.scss public/css/labels.css & sass --watch public/css/index.scss public/css/index.css & nodemon ./index.js"
+  }
+}

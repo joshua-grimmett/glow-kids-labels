@@ -1,0 +1,58 @@
+@media print {
+    * {page-break-after: avoid;}
+}
+
+#labels {
+    width: 210mm;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.label img.logo {
+    width: 20mm;
+    height: auto;
+}
+
+.logo-frame {
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.name-tag {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    line-height: 0.6in;
+    font-family: 'Bayon';
+    font-size: 57pt;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 91mm;
+    height: 54mm;
+
+    border: inset 6px;
+    border-image: linear-gradient(45deg, #18a7b1, #1360ab) 1;
+}
+
+.label:nth-child(8),
+.label:nth-child(16),
+.label:nth-child(24),
+.label:nth-child(32),
+.label:nth-child(40),
+.label:nth-child(48),
+.label:nth-child(56),
+.label:nth-child(64) {
+    margin-bottom: 50mm;
+}
