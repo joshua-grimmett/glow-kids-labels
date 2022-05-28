@@ -18,6 +18,8 @@ function onReady() {
 
         grid.appendChild(newLabel);
     }
+
+    window.print();
 }
 
 window.onload = onReady;
