@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+    column-gap: 2.8cm;
 }
 
 .label img.logo {
@@ -54,5 +55,5 @@
 .label:nth-child(48),
 .label:nth-child(56),
 .label:nth-child(64) {
-    margin-bottom: 50mm;
+    margin-bottom: 55mm;
 }
