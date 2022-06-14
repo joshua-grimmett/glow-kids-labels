@@ -40,10 +40,6 @@ body {
   padding: var(--input-padding-y) var(--input-padding-x);
 }
 
-.name-tag > span {
-  text-align: center;
-}
-
 .form-label-group > label {
   position: absolute;
   top: 0;
