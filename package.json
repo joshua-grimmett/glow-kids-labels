@@ -10,6 +10,6 @@
   },
   "scripts": {
     "build": "sass public/css:public/css",
-    "dev": "sass --watch public/css/labels.scss public/css/labels.css & sass --watch public/css/index.scss public/css/index.css & nodemon ./index.js"
+    "dev": "sass --watch public/css/labels.scss public/css/labels.css & sass --watch public/css/index.scss public/css/index.css & sass --watch public/css/passes.scss public/css/passes.css & nodemon ./index.js"
   }
 }

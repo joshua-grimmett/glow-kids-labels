@@ -3,15 +3,11 @@
   --input-padding-y: .75rem;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
+  flex-direction: column;
   -ms-flex-align: center;
   -ms-flex-pack: center;
   -webkit-box-align: center;

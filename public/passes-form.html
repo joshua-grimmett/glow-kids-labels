@@ -19,25 +19,31 @@
     <div>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Label Printer</a>
+          <a class="nav-link" href="/passes-form.html">Label Printer</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/passes-form.html">Passes Printer</a>
+          <a class="nav-link active" aria-current="page" href="/">Passes Printer</a>
         </li>
       </ul>
     </div>
-    <form class="form-signin" method="get" action="/labels.html">
+    <form class="form-signin" method="get" action="/passes.html">
       <div class="text-center mb-4">
         <img class="mb-4" src="/img/logo.svg" alt="" width="100" height="100">
-        <h1 class="h3 mb-3 font-weight-normal">Label Printer</h1>
-        <p>Enter a list of names seperated by commas, then submit. After submission you will find a page containing all the labels. Press CTR+P to print the labels.</p>
+        <h1 class="h3 mb-3 font-weight-normal">Passes Printer</h1>
+        <p>Enter the desired information for the pass in the following format: "PASS TEXT 1;PASS 1 IMG URL, PASS TEXT 2;PASS IMG 2 URL"</p>
       </div>
 
       <div class="form-label-group">
-        <textarea id="names" name="names" class="form-control" placeholder="Names" autofocus>Ferne, Lara, Imogen, Arizona, Kim, Arielle, Amity, Claudia, Kay, Chloe, Josh, Jordyn, Shenayah, Claudia, Morgan, Erin, Hollie, Ruby, Tjemyn, Louise, Carrol, Cathy</textarea>
+        <textarea id="names" name="data" class="form-control" placeholder="Data" autofocus>
+Grab a snack;/img/snack-clip-art-7.jpeg,
+Go for a walk;/img/706268.jpeg,
+Playpark;/img/343664.jpeg,
+See my parents;/img/gieoEzx4T.png,
+Quiet place;/img/473465.jpeg,
+Outside;/img/22711.png</textarea>
       </div>
 
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Generate Labels</button>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Generate Passes</button>
       <p class="mt-5 mb-3 text-muted text-center">&copy; Glow Church 2022</p>
     </form>
   </body>

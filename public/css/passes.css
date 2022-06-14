@@ -25,6 +25,7 @@
 }
 
 .name-tag {
+  margin-top: -5rem;
   height: 100%;
   width: 100%;
   display: flex;
@@ -32,9 +33,17 @@
   align-items: center;
   text-align: center;
   max-width: 85%;
+  justify-content: flex-end;
   line-height: 0.6in;
   font-family: "Bayon";
-  font-size: 57pt;
+  font-size: 30pt;
+}
+
+.mainImg {
+  width: auto;
+  max-width: 180px;
+  height: 140px;
+  border-radius: 20px;
 }
 
 .label {
@@ -51,4 +60,4 @@
   margin-bottom: 55mm;
 }
 
-/*# sourceMappingURL=labels.css.map */
+/*# sourceMappingURL=passes.css.map */
